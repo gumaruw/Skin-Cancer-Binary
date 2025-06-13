@@ -21,6 +21,8 @@ model = tf.keras.models.load_model('improved_skin_cancer_model.keras')
 prediction = model.predict(your_image_array)
 result = "Malignant" if prediction > 0.5 else "Benign"
 ```
+## Model
+- https://drive.google.com/drive/folders/1ymdof2t6sQMmGFi84vdFuvEFfhfhMV8h?usp=sharing
 
 ## Classes:
 - 0: Benign
